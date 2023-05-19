@@ -1,16 +1,7 @@
-# untitled1
+# Social network
 
-A new Flutter project.
+# Images
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|   Home page - feed   |     Post of user     |      User profile       |
+| :------------------: | :------------------: | :---------------------: |
+| ![](images/feed.jpg) | ![](images/post.jpg) | ![](images/profile.jpg) |

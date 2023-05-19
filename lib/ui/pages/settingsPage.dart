@@ -38,7 +38,7 @@ class SettingsPage extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(width * 116 / 428),
                     child: CachedNetworkImage(
-                      imageUrl: settings.information.image,
+                      imageUrl: "https://phonoteka.org/uploads/posts/2022-06/1656605825_12-phonoteka-org-p-dora-pevitsa-oboi-13.png",
                       fit: BoxFit.fitHeight,
                       height: width * 116 / 428,
                       width: width * 116 / 428,
@@ -73,8 +73,11 @@ class SettingsPage extends StatelessWidget {
                           ),
                         ],
                       ),
-                      const Icon(
-                        Icons.arrow_forward_ios_outlined,
+                      const Padding(
+                        padding: EdgeInsets.only(right:16.0),
+                        child: Icon(
+                          Icons.arrow_forward_ios_outlined,
+                        ),
                       ),
                     ],
                   ),
@@ -115,8 +118,11 @@ class SettingsPage extends StatelessWidget {
                           ),
                         ],
                       ),
-                      const Icon(
-                        Icons.arrow_forward_ios_outlined,
+                      const Padding(
+                        padding: EdgeInsets.only(right: 16.0),
+                        child: Icon(
+                          Icons.arrow_forward_ios_outlined,
+                        ),
                       ),
                     ],
                   ),

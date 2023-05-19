@@ -101,7 +101,7 @@ class OpenedPost extends StatelessWidget {
                     top: height * 24 / globals.height,
                     left: width * 34 / globals.width),
                 child: Text(
-                  "Приходите на концерт Доры 23.12 СПБ.",
+                  "Description",
                   style: GoogleFonts.lato(
                     color: globals.secondColor,
                     fontSize: 20,

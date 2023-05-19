@@ -21,7 +21,7 @@ class SearchPage extends StatelessWidget {
           ),
           Padding(
             padding: EdgeInsets.only(
-                top: height * 16 / globals.height,
+                top: height * 48 / globals.height,
                 left: width * 10 / globals.width),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(15),
